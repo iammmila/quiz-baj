@@ -1,0 +1,66 @@
+.sect3 {
+    width: 100%;
+    background-color: white;
+
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+
+        .section3 {
+            padding: 70px 0px;
+
+            .cards {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                position: relative;
+
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding: 20px;
+                    border-radius: 8px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #F1D7C8;
+                    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+                    .info {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        padding: 0 30px 30px 30px;
+
+                        hr {
+                            background-color: lightgrey;
+                        }
+
+                        span {
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #1D4645;
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 32px;
+                            color: #333333;
+                        }
+                    }
+                }
+
+                .card1 {
+                    position: relative;
+                    top: 100px;
+                }
+
+                .card2 {
+                    position: relative;
+                    top: 50px;
+                }
+            }
+        }
+    }
+}
